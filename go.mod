@@ -1,4 +1,4 @@
-module github.com/nichotined/appium-go-client
+module github.com/stack1ng/appium-go-client
 
 go 1.17
 

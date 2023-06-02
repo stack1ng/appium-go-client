@@ -4,8 +4,8 @@ import (
 	// "encoding/json"
 	"encoding/json"
 
-	"github.com/nichotined/appium-go-client/client"
-	"github.com/nichotined/appium-go-client/jsonutils"
+	"github.com/stack1ng/appium-go-client/client"
+	"github.com/stack1ng/appium-go-client/jsonutils"
 )
 
 // Driver ...

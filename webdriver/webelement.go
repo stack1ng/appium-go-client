@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/nichotined/appium-go-client/jsonutils"
-	"github.com/nichotined/appium-go-client/property"
+	"github.com/stack1ng/appium-go-client/jsonutils"
+	"github.com/stack1ng/appium-go-client/property"
 )
 
 // Element ...

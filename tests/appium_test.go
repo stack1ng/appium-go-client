@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/nichotined/appium-go-client/webdriver"
+	"github.com/stack1ng/appium-go-client/webdriver"
 )
 
 func TestDriver(t *testing.T) {
