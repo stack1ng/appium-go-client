@@ -87,7 +87,7 @@ func (el *Element) Click() {
 	appiumReq := &AppiumRequest{
 		property.Post,
 		nil,
-		fmt.Sprintf("/session/%s/element%s/click", el.Driver.SessionID, el.ID),
+		fmt.Sprintf("/session/%s/element/%s/click", el.Driver.SessionID, el.ID),
 	}
 	resp := doAppiumRequest(appiumReq, el.Driver.Client, "")
 
@@ -106,7 +106,7 @@ func (el *Element) SendKeys(keys string) {
 	appiumReq := &AppiumRequest{
 		property.Post,
 		reqBody,
-		fmt.Sprintf("/session/%s/element%s/value", el.Driver.SessionID, el.ID),
+		fmt.Sprintf("/session/%s/element/%s/value", el.Driver.SessionID, el.ID),
 	}
 
 	resp := doAppiumRequest(appiumReq, el.Driver.Client, "")
